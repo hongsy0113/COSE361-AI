@@ -1,0 +1,39 @@
+getFood(self, gameState)
+m[y] = true 매트릭스 형식, 먹을 음식 반환
+
+getFoodYouAreDefending(self, gameState)
+지킬 음식 만환
+m[y]=true (x,y)에 지킬 음식 있다면
+
+getOpponents(self, gameState)
+상대의 agent index 반환
+
+getTeam(self, gameState)
+울팀의 agent index 반환
+
+getScore(self, gameState)
+우리팀 점수 - 상대팀점수
+음수면 지고 있는중
+
+getMazeDistance(self, pos1, pos2)
+두 지점 사이 거리 반환
+
+getPreviousObservation(self)
+가장 직전 state 반환
+
+getCurrentObservation(self)
+현재 state 반환
+
+debugDraw(self, cells, color, clear=False)
+원하는 셀에 색깔 박스 그림
+
+agentstate.numCarrying
+
+gameState.isRed(좌표)
+레드면 T
+
+getCapsules(self, gameState)
+	
+
+gamestate.isOnRedTeam(self, agentIndex)
+return true if the agent with the given index is on the red team
